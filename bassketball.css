@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: url('https://img.freepik.com/free-psd/banner-template-playing-basketball_23-2148716142.jpg?t=st=1742624674~exp=1742628274~hmac=be8cab480f38a8f08835dff836481f4e573e269bc1228446a98fc063b669eae5&w=1380') center/cover no-repeat fixed;
+}
+
+.basketball-container {
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+}
+
+
+.basketball-header h1 {
+    font-size: 3em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.basketball-header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+.about-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.player-card {
+    background: rgba(255, 87, 34, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.cta-button {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #e64a19;
+}
+
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
