@@ -1,0 +1,105 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(120deg, #1f1c2c, #928DAB);
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(45deg, #FF512F, #DD2476);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar styling */
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #FF512F;
+    transform: scale(1.1);
+}
+
+/* Section styling */
+.section {
+    padding: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+.section:hover {
+    transform: translateY(-5px);
+}
+
+/* Schedule styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 10px 0;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ul li:hover {
+    color: #FF512F;
+}
+
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+th {
+    background: #FF512F;
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #DD2476;
+    color: #fff;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+button {
+    background: #FF512F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 0 15px #FF512F;
+    transform: scale(1.1);
+}

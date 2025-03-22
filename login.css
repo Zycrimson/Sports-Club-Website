@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?t=st=1742608042~exp=1742611642~hmac=9ccf4c9d44c20f819cb4678124dfd145e1ebb6caadfe175082b213e6176bdbaa&w=996');
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+input::placeholder {
+    color: #ddd;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #4CAF50, #45a049);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(45deg, #45a049, #4CAF50);
+}
+.toggle-button {
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+}
+.toggle-button:hover {
+    background: linear-gradient(45deg, #0056b3, #007BFF);
+}
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
