@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://img.freepik.com/free-photo/athlete-prepared-run-athletics-track_123827-29593.jpg?t=st=1742642853~exp=1742646453~hmac=de875ae7884fedf2b07a8bc556459f82eb34cbed752fe5ac9097ce3a57b3b61c&w=996') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.track-field-container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.track-field-header h1 {
+    font-size: 3.5em;
+    margin-top: 20px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+.about-section p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.track-field-content h2 {
+    margin-top: 30px;
+    font-size: 2.2em;
+    border-bottom: 4px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.track-stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 280px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stat-card h3 {
+    color: #e74c3c;
+    font-size: 1.9em;
+}
+
+.stat-card p {
+    font-size: 1.2em;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.9);
+}
+
+.cta-button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+    transform: scale(1.1);
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 1em;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}

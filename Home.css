@@ -3,11 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #0a8501, #0a8501);
+    background: url('https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?t=st=1742640560~exp=1742644160~hmac=48d802bb3d862ab53be93f097b59ccc6734f6d331fbd65b41eb016de357584b2&w=996') center/cover no-repeat fixed;
     color: #fff;
     overflow-x: hidden;
     line-height: 1.6;
   }
+ 
+    head{
+      text-align: center;
+    }
+    
+  
   
   h1, h2, h3 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
@@ -37,7 +43,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
     padding: 1rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(7, 87, 0, 0.651);
     margin: 0.5rem;
     text-align: center;
   }
@@ -65,9 +71,34 @@ body {
   
   .section {
     margin-bottom: 2rem;
-    padding: 1rem;
-    background: rgba(0, 0, 0, 0.4);
+    padding: 5rem ;
+    width: 80%;
+    background: rgba(1, 34, 3, 0.705);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  }
+  .cta-button{
+    padding: 10px 20px;
+    border: rgb(65, 65, 241);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  nav{
+    background-color: #12490d;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    box-shadow: #091407;
+  }
+  .nav{
+    text-size-adjust: 26px;
+    text-align: center;
+    padding: 20px;
+  }
+  .nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    
+
   }
   
