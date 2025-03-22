@@ -1,44 +1,31 @@
-
+/* Martial Arts Page Styles */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
     color: #fff;
-    background: rgba(129, 0, 0, 0.6)
+    background: url('https://img.freepik.com/free-photo/black-white-portrait-athlete-participating-olympic-championship-sports_23-2151500647.jpg?t=st=1742639856~exp=1742643456~hmac=31e9837c96a869ed3d682eab5ed8198ac298d1d84689aab91f7ea823eba9637a&w=740') center/cover no-repeat fixed;
 }
-header {
-    background: linear-gradient(45deg, #FF512F, #DD2476);
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-nav a {
-    margin: 0 15px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
-}
-.basketball-container {
+
+.martial-arts-container {
     text-align: center;
     padding: 20px;
     backdrop-filter: blur(4px);
 }
 
-
-.basketball-header h1 {
+/* Header Section */
+.martial-arts-header h1 {
     font-size: 3em;
     margin-top: 20px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-.basketball-header p {
+.martial-arts-header p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-
+/* About Section */
 .about-section {
     margin: 20px 0;
     padding: 15px;
@@ -46,16 +33,16 @@ nav a {
     border-radius: 10px;
 }
 
-
-.team-grid {
+/* Styles Section */
+.styles-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.player-card {
-    background: rgba(255, 87, 34, 0.9);
+.style-card {
+    background: rgba(180, 0, 0, 0.9);
     padding: 15px;
     border-radius: 10px;
     width: 200px;
@@ -64,13 +51,14 @@ nav a {
     cursor: pointer;
 }
 
-.player-card:hover {
+.style-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
 }
 
+/* Call to Action Section */
 .cta-button {
-    background: #ff5722;
+    background: #d32f2f;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -81,10 +69,10 @@ nav a {
 }
 
 .cta-button:hover {
-    background: #e64a19;
+    background: #b71c1c;
 }
 
-
+/* Footer Section */
 .footer {
     margin-top: 20px;
     font-size: 0.9em;

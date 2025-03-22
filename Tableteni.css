@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://img.freepik.com/free-photo/ping-pong-paddle-balls_23-2151909688.jpg?t=st=1742645766~exp=1742649366~hmac=e00334cb517e5a51dd60703156afd0611750e6208b0bf38098e1650a0c6b7116&w=900') no-repeat center center/cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.table-tennis-container {
+    background: rgba(255, 255, 255, 0.219);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+.table-tennis-header h1 {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.table-tennis-header p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about-section h2,
+.rules-section h2 {
+    color: #00aaff;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.rules-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rules-list li {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rules-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.cta-section .cta-button {
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cta-section .cta-button:hover {
+    background: #0088cc;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
